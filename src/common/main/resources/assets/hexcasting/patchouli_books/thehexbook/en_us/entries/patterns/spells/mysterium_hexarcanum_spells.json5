@@ -1,0 +1,17 @@
+{
+  name: "mysterium_hexarcanum.book.patterns.spells.mysterium_hexarcanum_spells",
+  category: "hexcasting:patterns/spells",
+  icon: "minecraft:spruce_sign",
+  advancement: "hexcasting:root",
+
+  pages: [
+    {
+      type: "hexcasting:pattern",
+      op_id: "mysterium_hexarcanum:congratulate",
+      anchor: "mysterium_hexarcanum:congratulate",
+      input: "entity",
+      output: "",
+      text: "mysterium_hexarcanum.book.patterns.spells.mysterium_hexarcanum_spells.congratulate",
+    },
+  ],
+}

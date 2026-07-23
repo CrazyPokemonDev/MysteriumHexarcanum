@@ -1,0 +1,21 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+# https://copier.readthedocs.io/en/stable/updating/#never-change-the-answers-file-manually
+_commit: v1.3.2
+_src_path: gh:Master-Bw3/Hex-Casting-1.21.1-Addon-Template
+advanced: true
+classname: MysteriumHexarcanum
+default_branch: main
+description: Mysterium Hexarcanum addon for Hex Casting
+display_name: Mysterium Hexarcanum
+github_repo: MysteriumHexarcanum
+github_user: Olfi01
+homepage_url: https://crazypokemondev.github.io/MysteriumHexarcanum
+issues_url: https://github.com/CrazyPokemonDev/MysteriumHexarcanum/issues
+java_package: de.crazypokemondev.mysterium_hexarcanum
+kotlin_package: de.crazypokemondev.mysterium_hexarcanum
+minecraft_version_in_mod_version: true
+mit_license: true
+mod_version: 0.1.0
+modid: mysterium_hexarcanum
+nix_shell: true
+sources_url: https://github.com/CrazyPokemonDev/MysteriumHexarcanum

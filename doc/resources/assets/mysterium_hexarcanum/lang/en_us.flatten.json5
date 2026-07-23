@@ -1,0 +1,8 @@
+{
+  hexdoc: {
+    mysterium_hexarcanum: {
+      title: "Mysterium Hexarcanum Book",
+      description: "Mysterium Hexarcanum addon for Hex Casting",
+    },
+  }
+}

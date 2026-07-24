@@ -1,6 +1,12 @@
 mysterium_hexarcanum:
   book:
     patterns:
+      progressions:
+        .: "Progressions"
+        count_zero: "Removes one number from the stack, then adds a list to the stack counting up from zero up until last whole integer less than or equal to the number that was removed."
+        count: "Removes two numbers from the stack, then adds a list to the stack counting up from the first whole integer greater than or equal to the second removed number to the last whole integer less than or equal to the first removed number."
+        count_zero_step: "Acts like the Count's Purification, but removes an additional integer first and counts up in increments of that number."
+        count_step: "Acts like the Count's Distillation, but removes an additional integer first and counts up in increments of that number."
       spells:
         mysterium_hexarcanum_spells:
           .: "Example Spells"
@@ -14,6 +20,10 @@ hexcasting:
   action:
     "mysterium_hexarcanum:congratulate" : "Congratulate Player"
     "mysterium_hexarcanum:congratulate/great": "Great Congrats!"
+    "mysterium_hexarcanum:count_zero": "The Count's Purification"
+    "mysterium_hexarcanum:count": "The Count's Distillation"
+    "mysterium_hexarcanum:count_zero_step": "Interval Distillation"
+    "mysterium_hexarcanum:count_step": "Interval Exaltation"
 
     # use this to add shortened versions of pattern names if the full name won't fit in the ingame book
     # you don't need to add an entry for every pattern - the above value will be used as a default
